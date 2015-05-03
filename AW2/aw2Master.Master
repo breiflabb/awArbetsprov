@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="aw2Master.master.cs" Inherits="AW2.aw2Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Rikard Rydkvist - Arbetsprov</title>
+     <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="styles/rr.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
